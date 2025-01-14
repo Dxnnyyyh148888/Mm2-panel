@@ -1,0 +1,111 @@
+local ScreenGui1 = Instance.new("ScreenGui") 
+ScreenGui1.Parent = game.Players.LocalPlayer.PlayerGui
+
+local Frame1 = Instance.new("Frame") 
+Frame1.Parent = ScreenGui1
+Frame1.Size = UDim2.new(0.4,0,0.5)
+Frame1.Position = UDim2.new(0.5,0,0.5)
+Frame1.Active = true
+Frame1.Draggable = true
+Frame1.BackgroundColor3 = Color3.fromRGB(33,84,185)
+
+local UICorner1 = Instance.new("UICorner") 
+UICorner1.Parent = Frame1
+UICorner1.CornerRadius = UDim.new(0.05,0)
+
+local Frame2 = Instance.new("Frame") 
+Frame2.Parent = Frame1 
+Frame2.BackgroundColor3 = Color3.fromRGB(255,255,230)
+Frame2.Size = UDim2.new(0.97,0,0.85)
+Frame2.Position = UDim2.new(0.017,0,0.099)
+Frame2.BorderColor3 = Color3.fromRGB(130,130,100)
+
+local Frame3 = Instance.new("Frame") 
+Frame3.Parent = Frame2
+Frame3.BackgroundColor3 = Color3.fromRGB(248,248,248)
+Frame3.BorderColor3 = Color3.fromRGB(130,130,100)Frame3.Size = UDim2.new(1,0,0.7)
+Frame3.Position = UDim2.new(0,0,0.3)
+
+local TextLabel1 = Instance.new("TextLabel") 
+TextLabel1.Parent = Frame1
+TextLabel1.Position = UDim2.new(0.02,0,0.025)
+TextLabel1.Size = UDim2.new(0.3,0,0.05)
+TextLabel1.BackgroundTransparency = 1
+TextLabel1.Text = "MM2 Panel"
+TextLabel1.TextColor3 = Color3.fromRGB(242,243,243)
+TextLabel1.TextSize = 13
+
+local ImageButton1 = Instance.new("ImageButton") 
+ImageButton1.Parent = Frame1
+ImageButton1.Position = UDim2.new(0.01,0,0.007)
+ImageButton1.Image = "rbxassetid://113191516916107"
+ImageButton1.Size = UDim2.new(0.05,0,0.1)
+ImageButton1.BackgroundTransparency = 1
+
+local TextButton1 = Instance.new("TextButton") 
+TextButton1.Parent = Frame1
+TextButton1.BackgroundColor3 = Color3.fromRGB(255,89,89)
+TextButton1.Position = UDim2.new(0.95,0,0.01)
+TextButton1.Size = UDim2.new(0.04,0,0.07)
+TextButton1.Text = "X"
+TextButton1.TextSize = 10
+TextButton1.TextColor3 = Color3.fromRGB(242,243,243)
+
+local UICorner2 = Instance.new("UICorner") 
+UICorner2.Parent = TextButton1
+UICorner2.CornerRadius = UDim.new(0.25,0)
+
+TextButton1.MouseButton1Click:Connect(function() 
+    Frame1:Destroy()
+end)
+
+local TextLabel2 = Instance.new("TextLabel") 
+TextLabel2.Parent = Frame2
+TextLabel2.BackgroundColor3 = Color3.fromRGB(242,243,243)
+TextLabel2.BorderColor3 = Color3.fromRGB(33,84,185)
+TextLabel2.Size = UDim2.new(0.7,0,0.1)
+TextLabel2.Position = UDim2.new(0.2,0,0.19)
+TextLabel2.Text = "ㅤT.me/Dxnnylol"
+TextLabel2.TextXAlignment = Enum.TextXAlignment.Left
+
+local TextLabel3 = Instance.new("TextLabel") 
+TextLabel3.Parent = Frame2
+TextLabel3.Size = UDim2.new(0.2,0,0.1)
+TextLabel3.Position = UDim2.new(0,0,0.19)
+TextLabel3.BackgroundColor3 = Color3.fromRGB(255,255,204)
+TextLabel3.BorderColor3 = Color3.fromRGB(255,204,153)
+TextLabel3.Text = "My Telegram!"
+
+local TextButton2 = Instance.new("TextButton") 
+TextButton2.Parent = Frame3
+TextButton2.Position = UDim2.new(0.02,0,0.05)
+TextButton2.Size = UDim2.new(0.2,0,0.2)
+TextButton2.BackgroundColor3 = Color3.fromRGB(248,248,248)
+TextButton2.Text = "Fly Gui"
+
+TextButton2.MouseButton1Click:Connect(function() 
+loadstring(game:HttpGet("https://pastebin.com/raw/eQA4nfcw"))()
+end)
+
+local TextButton1 = Instance.new("TextButton") 
+TextButton1.Parent = Frame3
+TextButton1.BackgroundColor3 = Color3.fromRGB(248,248,248)
+TextButton1.Position = UDim2.new(0.02,0,0.3)
+TextButton1.Size = UDim2.new(0.2,0,0.2)
+TextButton1.Text = "Spy Players Gui"
+
+TextButton1.MouseButton1Click:Connect(function() 
+-- by Govemeban800 t.me/Dxnnylol
+loadstring(game:HttpGet("https://pastebin.com/raw/uPGrjsd6"))()
+end)
+
+local TextButton2 = Instance.new("TextButton") 
+TextButton2.Parent = Frame3
+TextButton2.BackgroundColor3 = Color3.fromRGB(248,248,248)
+TextButton2.Position = UDim2.new(0.02,0,0.55)
+TextButton2.Size = UDim2.new(0.2,0,0.2)
+TextButton2.Text = "Executor"
+
+TextButton2.MouseButton1Click:Connect(function() 
+loadstring(game:HttpGet("https://pastebin.com/raw/taWbKhx0"))()
+end)
