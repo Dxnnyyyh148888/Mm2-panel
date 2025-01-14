@@ -30,7 +30,7 @@ Frame3.Position = UDim2.new(0,0,0.3)
 
 local TextLabel1 = Instance.new("TextLabel") 
 TextLabel1.Parent = Frame1
-TextLabel1.Position = UDim2.new(0.02,0,0.025)
+TextLabel1.Position = UDim2.new(0.02,0,0.025, 0)
 TextLabel1.Size = UDim2.new(0.3,0,0.05)
 TextLabel1.BackgroundTransparency = 1
 TextLabel1.Text = "MM2 Panel"
