@@ -89,25 +89,36 @@ TextButton2.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://pastebin.com/raw/eQA4nfcw"))()
 end)
 
-local TextButton1 = Instance.new("TextButton") 
-TextButton1.Parent = Frame3
-TextButton1.BackgroundColor3 = Color3.fromRGB(248,248,248)
-TextButton1.Position = UDim2.new(0.02,0,0.3)
-TextButton1.Size = UDim2.new(0.2,0,0.2)
-TextButton1.Text = "Spy Players Gui"
+local TextButton21 = Instance.new("TextButton") 
+TextButton21.Parent = Frame3
+TextButton21.BackgroundColor3 = Color3.fromRGB(248,248,248)
+TextButton21.Position = UDim2.new(0.02,0,0.3)
+TextButton21.Size = UDim2.new(0.2,0,0.2)
+TextButton21.Text = "Spy Players Gui"
 
-TextButton1.MouseButton1Click:Connect(function() 
+TextButton21.MouseButton1Click:Connect(function() 
 -- by Govemeban800 t.me/Dxnnylol
 loadstring(game:HttpGet("https://pastebin.com/raw/uPGrjsd6"))()
 end)
 
-local TextButton2 = Instance.new("TextButton") 
-TextButton2.Parent = Frame3
-TextButton2.BackgroundColor3 = Color3.fromRGB(248,248,248)
-TextButton2.Position = UDim2.new(0.02,0,0.55)
-TextButton2.Size = UDim2.new(0.2,0,0.2)
-TextButton2.Text = "Executor"
+local TextButton22 = Instance.new("TextButton") 
+TextButton22.Parent = Frame3
+TextButton22.BackgroundColor3 = Color3.fromRGB(248,248,248)
+TextButton22.Position = UDim2.new(0.02,0,0.55)
+TextButton22.Size = UDim2.new(0.2,0,0.2)
+TextButton22.Text = "Executor"
 
-TextButton2.MouseButton1Click:Connect(function() 
+TextButton22.MouseButton1Click:Connect(function() 
 loadstring(game:HttpGet("https://pastebin.com/raw/taWbKhx0"))()
+end)
+
+local TextButton32 instance.new("Textbutton")
+TextButton32.Parent = Frame3
+TextButton32.Size = UDim2.new(0.2,0,0.2)
+TextButton32.Position = UDim2.new(0.35,0,0.05)
+TextButton32.BackgroundColor3 = Color3.fromRGB(248,248,248)
+TextButton32.Text = "KillAll(murd)
+
+TextButton32.OnMouseClickButton:Connect(Function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9dVGBHeT"))()
 end)
