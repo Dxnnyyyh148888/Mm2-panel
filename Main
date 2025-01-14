@@ -117,7 +117,7 @@ TextButton32.Parent = Frame3
 TextButton32.Size = UDim2.new(0.2,0,0.2)
 TextButton32.Position = UDim2.new(0.35,0,0.05)
 TextButton32.BackgroundColor3 = Color3.fromRGB(248,248,248)
-TextButton32.Text = "KillAll(murd)
+TextButton32.Text = "KillAll(murd)"
 
 TextButton32.OnMouseClickButton:Connect(Function()
 loadstring(game:HttpGet("https://pastebin.com/raw/9dVGBHeT"))()
