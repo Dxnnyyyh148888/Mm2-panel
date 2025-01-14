@@ -112,7 +112,7 @@ TextButton22.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://pastebin.com/raw/taWbKhx0"))()
 end)
 
-local TextButton32 instance.new("Textbutton")
+local TextButton32 Instance.new("Textbutton")
 TextButton32.Parent = Frame3
 TextButton32.Size = UDim2.new(0.2,0,0.2)
 TextButton32.Position = UDim2.new(0.35,0,0.05)
