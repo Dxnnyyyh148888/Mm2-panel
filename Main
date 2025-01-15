@@ -123,7 +123,7 @@ TextButton32.Text = "KillAll (murd)"
 local TextButton323 = Instance.new("TextButton")
 TextButton323.Parent = Frame3
 TextButton323.Size = UDim2.new(0.2, 0, 0.2, 0)
-TextButton323.Position = UDim2.new(0.25, 0, 0.25, 0)
+TextButton323.Position = UDim2.new(0.25, 0, 0.3, 0)
 TextButton323.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
 TextButton323.Text = "Teleport"
 
