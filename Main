@@ -120,6 +120,13 @@ TextButton32.Position = UDim2.new(0.25, 0, 0.05, 0)
 TextButton32.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
 TextButton32.Text = "KillAll (murd)"
 
-TextButton32.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/9dVGBHeT"))()
+local TextButton323 = Instance.new("TextButton")
+TextButton323.Parent = Frame3
+TextButton323.Size = UDim2.new(0.2, 0, 0.2, 0)
+TextButton323.Position = UDim2.new(0.25, 0, 0.05, 0)
+TextButton323.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
+TextButton323.Text = "Teleport"
+
+TextButton323.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zmYpSKS0"))()
 end)
