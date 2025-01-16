@@ -130,3 +130,10 @@ TextButton323.Text = "Teleport"
 TextButton323.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zmYpSKS0"))()
 end)
+
+local showPlayersButton = Instance.new("TextButton")
+showPlayersButton.Parent = Frame3
+showPlayersButton.Position = UDim2.new(0.25, 0, 0.55, 0)
+showPlayersButton.Size = UDim2.new(0.2, 0, 0.2, 0)
+showPlayersButton.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
+showPlayersButton.Text = "Show Players"
