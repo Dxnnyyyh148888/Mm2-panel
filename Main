@@ -139,5 +139,5 @@ showPlayersButton.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
 showPlayersButton.Text = "Esp"
 
 ShowPlayersButton.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/zmYpSKS0"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/2RFWYyn5"))()
 end)
