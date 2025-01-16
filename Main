@@ -121,7 +121,7 @@ TextButton32.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
 TextButton32.Text = "KillAll (murd)"
 
 TextButton32.MouseButton1Click:Connect(function() 
-    loadstring(game:HttpGet("https://pastebin.com/raw/taWbKhx0"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/MYXskMe9"))()
 end)
 
 local TextButton323 = Instance.new("TextButton")
