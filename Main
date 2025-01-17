@@ -145,3 +145,36 @@ showPlayersButton.Text = "Esp"
 showPlayersButton.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet("https://pastebin.com/raw/2RFWYyn5"))()
 end)
+
+local TextButton7 = Instance.new("TextButton")
+TextButton7.Parent = Frame3
+TextButton7.Position = UDim2.new(0.71, 0, 0.05, 0)
+TextButton7.Size = UDim2.new(0.2, 0, 0.2, 0)
+TextButton7.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
+TextButton7.Text = "Goto sheriff"
+
+TextButton7.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet(""))()
+end)
+
+local TextButton8 = Instance.new("TextButton")
+TextButton8.Parent = Frame3
+TextButton8.Position = UDim2.new(0.71, 0, 0.3, 0)
+TextButton8.Size = UDim2.new(0.2, 0, 0.2, 0)
+TextButton8.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
+TextButton8.Text = "Goto murd"
+
+TextButton8.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet(""))()
+end)
+
+local TextButton9 = Instance.new("TextButton")
+TextButton9.Parent = Frame3
+TextButton9.Position = UDim2.new(0.71, 0, 0.55, 0)
+TextButton9.Size = UDim2.new(0.2, 0, 0.2, 0)
+TextButton9.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
+TextButton9.Text = "Goto Lobby"
+
+TextButton9.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet(""))()
+end)
