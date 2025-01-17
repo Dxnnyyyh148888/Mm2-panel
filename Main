@@ -154,7 +154,7 @@ TextButton7.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
 TextButton7.Text = "Goto sheriff"
 
 TextButton7.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/6chc3CTm"))()
 end)
 
 local TextButton8 = Instance.new("TextButton")
