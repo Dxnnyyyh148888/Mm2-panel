@@ -187,7 +187,7 @@ TextButton77.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
 TextButton77.Text = "Goto Random"
 
 TextButton77.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/d9Ydz4cg"))()
 end)
 
 local TextButton88 = Instance.new("TextButton")
@@ -195,10 +195,10 @@ TextButton88.Parent = Frame3
 TextButton88.Position = UDim2.new(0.76, 0, 0.3, 0)
 TextButton88.Size = UDim2.new(0.2, 0, 0.2, 0)
 TextButton88.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
-TextButton88.Text = "Show Murd/Sher"
+TextButton88.Text = "Re Join"
 
 TextButton88.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/UB2AM6Bx"))()
 end)
 
 local TextButton99 = Instance.new("TextButton")
@@ -232,9 +232,9 @@ returnButton.Position = UDim2.new(0.5, 0, 0.5, 0)
 returnButton.Active = true
 returnButton.Draggable = true
 returnButton.Size = UDim2.new(0.05, 0, 0.1, 0)
-returnButton.Text = "Admin"
+returnButton.Text = "💫"
 returnButton.Visible = false
-returnButton.TextSize = 10
+returnButton.TextSize = 15
 returnButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 
 local UICorner32 = Instance.new("UICorner") 
