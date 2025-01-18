@@ -179,7 +179,7 @@ TextButton9.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet("https://pastebin.com/raw/1XEcQafh"))()
 end)
 
-local TextButton77 = Inatance.new("TextButton")
+local TextButton77 = Instance.new("TextButton")
 TextButton77.Parent = Frame3
 TextButton77.Position = UDim2.new(0.76, 0, 0.05, 0)
 TextButton77.Size = UDim2.new(0.2, 0, 0.2, 0)
