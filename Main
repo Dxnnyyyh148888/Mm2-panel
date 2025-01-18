@@ -179,6 +179,39 @@ TextButton9.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet("https://pastebin.com/raw/1XEcQafh"))()
 end)
 
+local TextButton77 = Inatance.new("TextButton")
+TextButton77.Parent = Frame3
+TextButton77.Position = UDim2.new(0.76, 0, 0.05, 0)
+TextButton77.Size = UDim2.new(0.2, 0, 0.2, 0)
+TextButton77.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
+TextButton77.Text = "Goto Random"
+
+TextButton77.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet(""))()
+end)
+
+local TextButton88 = Instance.new("TextButton")
+TextButton88.Parent = Frame3
+TextButton88.Position = UDim2.new(0.76, 0, 0.3, 0)
+TextButton88.Size = UDim2.new(0.2, 0, 0.2, 0)
+TextButton88.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
+TextButton88.Text = "Show Murd/Sher"
+
+TextButton88.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet(""))()
+end)
+
+local TextButton99 = Instance.new("TextButton")
+TextButton99.Parent = Frame3
+TextButton99.Position = UDim2.new(0.76, 0, 0.55, 0)
+TextButton99.Size = UDim2.new(0.2, 0, 0.2, 0)
+TextButton99.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
+TextButton99.Text = "AntiLag"
+
+TextButton99.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet(""))()
+end)
+
 local toggleButton = Instance.new("TextButton")
 toggleButton.Parent = Frame1
 toggleButton.BackgroundColor3 = Color3.fromRGB(0, 150, 200)
