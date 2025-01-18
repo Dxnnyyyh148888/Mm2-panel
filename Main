@@ -209,7 +209,8 @@ TextButton99.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
 TextButton99.Text = "AntiLag"
 
 TextButton99.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/xSejker/AntilagFixedd/main/README.md',true))()
+"))()
 end)
 
 local toggleButton = Instance.new("TextButton")
