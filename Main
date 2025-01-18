@@ -234,7 +234,7 @@ returnButton.Draggable = true
 returnButton.Size = UDim2.new(0.05, 0, 0.1, 0)
 returnButton.Text = "💫"
 returnButton.Visible = false
-returnButton.TextSize = 15
+returnButton.TextSize = 23
 returnButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 
 local UICorner32 = Instance.new("UICorner") 
