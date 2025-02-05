@@ -88,7 +88,7 @@ TextButton2.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
 TextButton2.Text = "Fly Gui"
 
 TextButton2.MouseButton1Click:Connect(function() 
-    loadstring(game:HttpGet("https://pastebin.com/raw/eQA4nfcw"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dxnnyyyh148888/Fly-gui/refs/heads/main/Hhhhh"))()
 end)
 
 local TextButton21 = Instance.new("TextButton") 
